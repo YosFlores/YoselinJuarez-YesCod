@@ -1,0 +1,61 @@
+@mixin estilosheader($height) {
+    background-image: url($background-image-header);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: $height;
+}
+
+@mixin textoHeader($padding-top) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: $padding-top;
+    height: 100%;
+    color: nth($colores, 4);
+}
+
+@mixin containerMain() {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: center;
+}
+
+@mixin titulosysubtitulos($font-size, $font-weight) {
+    color: nth($colores, 1);
+    font-size: $font-size;
+    font-weight: $font-weight;
+    padding: 1rem;
+}
+
+@mixin queofreceSobremi() {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+@mixin footer($height) {
+    background-color: #faeeee;
+    height: $height;
+    color: #9383e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin contactoservicios() {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin contactoserviciosa() {
+    text-decoration: none;
+    color: nth($colores, 3);
+    font-weight: 550;
+}

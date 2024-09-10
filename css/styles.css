@@ -1,428 +1,359 @@
+@charset "UTF-8";
+/*Mobile*/
+@media only screen and (max-width: 500px) {
+  /*Estilos header*/
+  header {
+    background-image: url("../images/imagenHeader.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+  }
+  .bg-light {
+    background-color: #7251bc !important;
+  }
+  .logoYesCod {
+    width: 5rem;
+  }
+  .flex-texto-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem 1rem 0 1.5rem;
+    height: 100%;
+    color: rgb(240, 248, 255);
+  }
+  /*Estilos Main*/
+  .containerMain {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: center;
+  }
+  .logo-YesCod {
+    width: 6rem;
+  }
+  .titulos {
+    color: #f484c4;
+    font-size: 2rem;
+    font-weight: 530;
+    padding: 1rem;
+    justify-content: center;
+  }
+  .subtitulos {
+    color: #f484c4;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 1rem;
+    text-align: center;
+  }
+  .iconosQueOfrece {
+    width: 4rem;
+    margin: 0.5rem;
+  }
+  .seccionesQueOfrece {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+  /*Estilos Main pagina sobre mí*/
+  .seccion-sobremi {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+  /*Imagenfundadora - pagina sobre mi*/
+  .imagen-fundadora {
+    width: 20rem;
+    margin: 1rem;
+  }
+  /*Estilos Main pagina servicios*/
+  .card-title {
+    color: #f484c4;
+  }
+  /*Estilos Main pagina blog*/
+  .parrafos {
+    padding: 2rem;
+  }
+  /*Estilo botón*/
+  .btn {
+    background-color: #f484c4;
+    color: rgb(240, 248, 255);
+  }
+  /*Estilos de Footer*/
+  footer {
+    background-color: #faeeee;
+    height: 25vh;
+    color: #9383e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ajustes-logo-footer {
+    width: 10rem;
+    padding: 1rem;
+  }
+  .ajustes-contacto-servicios {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ajustes-contacto-servicios a {
+    text-decoration: none;
+    color: #7251bc;
+    font-weight: 550;
+  }
+  .ajustes-redes-footer a img {
+    width: 3rem;
+  }
+}
+/*Tablet*/
+@media only screen and (min-width: 501px) and (max-width: 991px) {
+  /*Estilos header*/
+  header {
+    background-image: url("../images/imagenHeader.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40vh;
+  }
+  .bg-light {
+    background-color: #7251bc !important;
+  }
+  .logoYesCod {
+    width: 5rem;
+  }
+  .flex-texto-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem 1rem 0 1.5rem;
+    height: 100%;
+    color: rgb(240, 248, 255);
+  }
+  /*Estilos Main*/
+  .containerMain {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: center;
+  }
+  .logo-YesCod {
+    width: 6rem;
+  }
+  .titulos {
+    color: #f484c4;
+    font-size: 2rem;
+    font-weight: 530;
+    padding: 1rem;
+    justify-content: center;
+  }
+  .subtitulos {
+    color: #f484c4;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 1rem;
+    text-align: center;
+  }
+  .iconosQueOfrece {
+    width: 4rem;
+    margin: 0.5rem;
+  }
+  .seccionesQueOfrece {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+  /*Estilos Main pagina sobre mí*/
+  .seccion-sobremi {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+  /*Imagenfundadora - pagina sobre mi*/
+  .imagen-fundadora {
+    width: 20rem;
+    margin: 1rem;
+  }
+  /*Estilos Main pagina servicios*/
+  .card-title {
+    color: #f484c4;
+  }
+  /*Estilos Main pagina blog*/
+  .parrafos {
+    padding: 2rem;
+  }
+  /*Estilo botón*/
+  .btn {
+    background-color: #f484c4;
+    color: rgb(240, 248, 255);
+  }
+  /*Estilos de Footer*/
+  footer {
+    background-color: #faeeee;
+    height: 25vh;
+    color: #9383e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ajustes-logo-footer {
+    width: 10rem;
+    padding: 1rem;
+  }
+  .ajustes-contacto-servicios {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ajustes-contacto-servicios a {
+    text-decoration: none;
+    color: #7251bc;
+    font-weight: 550;
+  }
+  .ajustes-redes-footer a img {
+    width: 3rem;
+  }
+}
+/*Web*/
+@media only screen and (min-width: 991px) {
+  /*Estilos header*/
+  header {
+    background-image: url("../images/imagenHeader.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+  }
+  .bg-light {
+    background-color: #7251bc !important;
+  }
+  .logoYesCod {
+    width: 5rem;
+  }
+  .flex-texto-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6rem;
+    height: 100%;
+    color: rgb(240, 248, 255);
+  }
+  /*Estilos Main home*/
+  .containerMain {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+    justify-content: center;
+  }
+  .contenedor-secciones {
+    display: flex;
+  }
+  .logo-YesCod {
+    width: 6rem;
+  }
+  .titulos {
+    color: #f484c4;
+    font-size: 2rem;
+    font-weight: 530;
+    padding: 1rem;
+    justify-content: center;
+  }
+  .subtitulos {
+    color: #f484c4;
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 1rem;
+    text-align: center;
+  }
+  .iconosQueOfrece {
+    width: 4rem;
+    margin: 0.5rem;
+  }
+  .seccionesQueOfrece {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+  }
+  /*Estilos Main pagina sobre mí*/
+  .seccion-sobremi {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+  /*Imagenfundadora - pagina sobre mi*/
+  .imagen-fundadora {
+    width: 20rem;
+    margin: 1rem;
+  }
+  /*Estilos Main pagina servicios*/
+  .card-title {
+    color: #f484c4;
+  }
+  /*Estilos Main pagina blog*/
+  .parrafos {
+    padding: 2rem;
+  }
+  /*Estilo botón*/
+  .btn {
+    background-color: #f484c4;
+    color: rgb(240, 248, 255);
+  }
+  /*Estilos de Footer*/
+  footer {
+    background-color: #faeeee;
+    height: 30vh;
+    color: #9383e6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ajustes-logo-footer {
+    width: 10rem;
+    padding: 1rem;
+  }
+  .ajustes-contacto-servicios {
+    display: flex;
+    justify-content: space-between;
+  }
+  .ajustes-contacto-servicios a {
+    text-decoration: none;
+    color: #7251bc;
+    font-weight: 550;
+  }
+  .ajustes-redes-footer a img {
+    width: 3rem;
+  }
+}
 * {
-    font-family: "Poppins", sans-serif;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 ul {
-    padding: 0%;
+  padding: 0%;
 }
 
-/*Mobile*/
-@media only screen and (max-width: 500px) {
-
-    /*Estilos header*/
-    header {
-        background-image: url(../images/imageIndex-Uno.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 40vh;
-
-    }
-
-    .bg-light {
-        background-color: #7251bc !important;
-    }
-
-    .logoYesCod {
-        width: 5rem;
-    }
-
-    .flex-texto-header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 6rem 1rem 0 1.5rem;
-        height: 100%;
-        color: aliceblue;
-    }
-
-    /*Estilos Main*/
-
-    .containerMain {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 1rem;
-        justify-content: center;
-    }
-
-    .logo-YesCod {
-        width: 6rem;
-    }
-
-    .titulos {
-        color: #f484c4;
-        font-size: 2rem;
-        font-weight: 530;
-        justify-content: center;
-        padding: 1rem;
-    }
-
-    .subtitulos {
-        color: #f484c4;
-        font-size: 1.6rem;
-        font-weight: 400;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    .iconosQueOfrece {
-        width: 4rem;
-        margin: .5rem;
-
-    }
-
-    .seccionesQueOfrece {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        align-items: center;
-        text-align: center;
-    }
-
-    /*Estilos Main pagina sobre mí*/
-    .seccion-sobremi {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        align-items: center;
-        text-align: center;
-    }
-
-    /*Imagenfundadora - pagina sobre mi*/
-    .imagen-fundadora {
-        width: 20rem;
-        margin: 1rem;
-    }
-
-    /*Estilos Main pagina servicios*/
-    .card-title {
-        color: #f484c4;
-    }
-
-    /*Estilos Main pagina blog*/
-    .parrafos {
-        padding: 2rem;
-    }
-
-    /*Estilo botón*/
-    .btn {
-        background-color:#f484c4;
-        color: rgb(255, 255, 255);
-    }
-
-    /*Estilos de Footer*/
-    footer {
-        background-color: #faeeee;
-        height: 25vh;
-        color: #9383e6;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .ajustes-logo-footer {
-        width: 10rem;
-        padding: 1rem;
-    }
-
-    .ajustes-contacto-servicios a {
-        text-decoration: none;
-        color: #9383e6;
-        font-weight: 550;
-    }
-
-    .ajustes-contacto-servicios {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .ajustes-redes-footer a img {
-        width: 3rem;
-    }
-
-}
-
-/*Tablet*/
-@media only screen and (min-width: 501px) and (max-width: 991px) {
-
-    /*Estilos header*/
-    header {
-        background-image: url(../images/imageIndex-Uno.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 40vh;
-
-    }
-
-    .bg-light {
-        background-color: #7251bc !important;
-    }
-
-    .logoYesCod {
-        width: 5rem;
-    }
-
-    .flex-texto-header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 6rem;
-        height: 100%;
-        color: aliceblue;
-    }
-
-    /*Estilos Main*/
-
-    .containerMain {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 1rem;
-        justify-content: center;
-    }
-
-    .logo-YesCod {
-        width: 6rem;
-    }
-
-    .titulos {
-        color: #f484c4;
-        font-size: 2rem;
-        font-weight: 530;
-        justify-content: center;
-    }
-
-    .subtitulos {
-        color: #f484c4;
-        font-size: 1.6rem;
-        font-weight: 400;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    .iconosQueOfrece {
-        width: 4rem;
-        margin: .5rem;
-
-    }
-
-    .seccionesQueOfrece {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        align-items: center;
-        text-align: center;
-    }
-
-    /*Estilos Main pagina sobre mí*/
-    .seccion-sobremi {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        align-items: center;
-        text-align: center;
-    }
-
-    /*Imagenfundadora - pagina sobre mi*/
-    .imagen-fundadora {
-        width: 20rem;
-        margin: 1rem;
-    }
-
-    /*Estilos Main pagina servicios*/
-    .card-title {
-        color: #f484c4;
-    }
-
-    /*Estilos Main pagina blog*/
-    .parrafos {
-        padding: 2rem;
-    }
-      /*Estilo botón*/
-      .btn {
-        background-color:#f484c4;
-        color: rgb(255, 255, 255);
-    }
-
-    /*Estilos de Footer*/
-    footer {
-        background-color: #faeeee;
-        height: 25vh;
-        color: #9383e6;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .ajustes-logo-footer {
-        width: 10rem;
-        padding: 1rem;
-    }
-
-    .ajustes-contacto-servicios a {
-        text-decoration: none;
-        color: #9383e6;
-        font-weight: 550;
-    }
-
-    .ajustes-contacto-servicios {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .ajustes-redes-footer a img {
-        width: 3rem;
-    }
-}
-
-/*Web*/
-@media only screen and (min-width: 992px) {
-
-    /*Estilos header*/
-    header {
-        background-image: url(../images/imageIndex-Uno.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 100%;
-        height: 50vh;
-
-    }
-
-    .bg-light {
-        background-color: #7251bc !important;
-    }
-
-    .logoYesCod {
-        width: 5rem;
-    }
-
-    .flex-texto-header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 6rem;
-        height: 100%;
-        color: aliceblue;
-    }
-
-    /*Estilos Main home*/
-
-    .containerMain {
-        margin: 1rem;
-        justify-content: center;
-    }
-
-    .contenedor-secciones {
-        display: flex;
-
-    }
-
-    .logo-YesCod {
-        width: 6rem;
-    }
-
-    .titulos {
-        color: #f484c4;
-        font-size: 2rem;
-        font-weight: 530;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    .subtitulos {
-        color: #f484c4;
-        font-size: 1.6rem;
-        font-weight: 400;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    .iconosQueOfrece {
-        width: 4rem;
-        margin: .5rem;
-
-    }
-
-    .seccionesQueOfrece {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        align-items: center;
-        text-align: center;
-        width: 25%;
-    }
-
-    /*Estilos Main pagina sobre mí*/
-    .seccion-sobremi {
-        display: flex;
-        flex-direction: column;
-        margin: 1rem;
-        align-items: center;
-        text-align: center;
-    }
-
-    /*Imagenfundadora - pagina sobre mi*/
-    .imagen-fundadora {
-        width: 20rem;
-        margin: 1rem;
-    }
-
-    /*Estilos Main pagina servicios*/
-    .card-title {
-        color: #f484c4;
-    }
-
-    /*Estilos Main pagina blog*/
-    .parrafos {
-        padding: 2rem;
-    }
-      /*Estilo botón*/
-      .btn {
-        background-color:#f484c4;
-        color: rgb(255, 255, 255);
-    }
-
-    /*Estilos de Footer*/
-    footer {
-        background-color: #faeeee;
-        height: 30vh;
-        color: #9383e6;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .ajustes-logo-footer {
-        width: 10rem;
-        padding: 1rem;
-    }
-
-    .ajustes-contacto-servicios a {
-        text-decoration: none;
-        color: #9383e6;
-        font-weight: 550;
-    }
-
-    .ajustes-contacto-servicios {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .ajustes-redes-footer a img {
-        width: 3rem;
-    }
-
-}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,104 @@
+/*Tablet*/
+@media only screen and (min-width: $min-tablet) and (max-width: $max-tablet) {
+
+    /*Estilos header*/
+    header {
+        @include estilosheader(40vh);
+    }
+
+    .bg-light {
+        background-color: nth($colores, 3) !important;
+    }
+
+    .logoYesCod {
+        width: $logonav;
+    }
+
+    .flex-texto-header {
+        @include textoHeader(6rem 1rem 0 1.5rem);
+    }
+
+    /*Estilos Main*/
+
+    .containerMain {
+        @include containerMain();
+    }
+
+    .logo-YesCod {
+        width: $logoentextos;
+    }
+
+    .titulos {
+        @include titulosysubtitulos(2rem, 530);
+        justify-content: center;
+    }
+
+    .subtitulos {
+        @include titulosysubtitulos(1.6rem, 400);
+        text-align: center;
+    }
+
+    .iconosQueOfrece {
+        width: $iconos;
+        margin: .5rem;
+    }
+
+    .seccionesQueOfrece {
+        @include queofreceSobremi()
+    }
+
+
+    /*Estilos Main pagina sobre mí*/
+    .seccion-sobremi {
+        @include queofreceSobremi()
+    }
+
+    /*Imagenfundadora - pagina sobre mi*/
+    .imagen-fundadora {
+        width: 20rem;
+        margin: 1rem;
+    }
+
+    /*Estilos Main pagina servicios*/
+    .card-title {
+        color: nth($colores, 1);
+    }
+
+    /*Estilos Main pagina blog*/
+    .parrafos {
+        padding: 2rem;
+    }
+
+    /*Estilo botón*/
+    .btn {
+        background-color: nth($colores, 1);
+        color: nth($colores, 4);
+    }
+
+
+    /*Estilos de Footer*/
+    footer {
+        @include footer(25vh);
+    }
+
+    .ajustes-logo-footer {
+        width: $logoenfooter;
+        padding: 1rem;
+    }
+
+    .ajustes-contacto-servicios {
+        @include contactoservicios();
+
+        a {
+            @include contactoserviciosa();
+        }
+    }
+
+    .ajustes-redes-footer {
+        a {
+            img {
+                width: 3rem;
+            }
+        }
+    }
+}

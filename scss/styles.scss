@@ -1,0 +1,17 @@
+@import './Utilities/listas';
+@import './Utilities/mixin';
+@import './mq/mobile';
+@import './mq/tablet';
+@import './mq/web';
+* {
+    font-family: $tipografiaGeneral;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+
+ul {
+    padding: 0%;
+}
+
