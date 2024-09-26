@@ -3,7 +3,7 @@
 @media only screen and (max-width: 500px) {
   /*Estilos header*/
   header {
-    background-image: url("../images/imagenHeader.png");
+    background-image: url("../images/imagenHeader-optimizada.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,6 +24,13 @@
     padding-top: 6rem 1rem 0 1.5rem;
     height: 100%;
     color: rgb(240, 248, 255);
+    padding: 1rem;
+  }
+  .flex-texto-header h1 {
+    text-align: center;
+  }
+  .flex-texto-header p {
+    text-align: center;
   }
   /*Estilos Main*/
   .containerMain {
@@ -41,6 +48,7 @@
     font-weight: 530;
     padding: 1rem;
     justify-content: center;
+    text-align: center;
   }
   .subtitulos {
     color: #f484c4;
@@ -81,6 +89,9 @@
   .parrafos {
     padding: 2rem;
   }
+  .imagenesBlog {
+    width: 400px;
+  }
   /*Estilo botón*/
   .btn {
     background-color: #f484c4;
@@ -90,7 +101,7 @@
   footer {
     background-color: #faeeee;
     height: 25vh;
-    color: #9383e6;
+    color: #7251bc;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,7 +128,7 @@
 @media only screen and (min-width: 501px) and (max-width: 991px) {
   /*Estilos header*/
   header {
-    background-image: url("../images/imagenHeader.png");
+    background-image: url("../images/imagenHeader-optimizada.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,6 +149,12 @@
     padding-top: 6rem 1rem 0 1.5rem;
     height: 100%;
     color: rgb(240, 248, 255);
+  }
+  .flex-texto-header h1 {
+    text-align: center;
+  }
+  .flex-texto-header p {
+    text-align: center;
   }
   /*Estilos Main*/
   .containerMain {
@@ -204,7 +221,7 @@
   footer {
     background-color: #faeeee;
     height: 25vh;
-    color: #9383e6;
+    color: #7251bc;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,7 +248,7 @@
 @media only screen and (min-width: 991px) {
   /*Estilos header*/
   header {
-    background-image: url("../images/imagenHeader.png");
+    background-image: url("../images/imagenHeader-optimizada.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -252,6 +269,12 @@
     padding-top: 6rem;
     height: 100%;
     color: rgb(240, 248, 255);
+  }
+  .flex-texto-header h1 {
+    text-align: center;
+  }
+  .flex-texto-header p {
+    text-align: center;
   }
   /*Estilos Main home*/
   .containerMain {
@@ -322,7 +345,7 @@
   footer {
     background-color: #faeeee;
     height: 30vh;
-    color: #9383e6;
+    color: #7251bc;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -16,6 +16,13 @@
 
     .flex-texto-header {
         @include textoHeader(6rem 1rem 0 1.5rem);
+        padding: 1rem;
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
     }
 
     /*Estilos Main*/
@@ -31,6 +38,7 @@
     .titulos {
         @include titulosysubtitulos(2rem, 530);
         justify-content: center;
+        text-align: center
     }
 
     .subtitulos {
@@ -66,6 +74,9 @@
     /*Estilos Main pagina blog*/
     .parrafos {
         padding: 2rem;
+    }
+    .imagenesBlog {
+        width: 400px ;
     }
 
     /*Estilo botón*/

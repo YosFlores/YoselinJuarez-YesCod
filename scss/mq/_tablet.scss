@@ -16,6 +16,12 @@
 
     .flex-texto-header {
         @include textoHeader(6rem 1rem 0 1.5rem);
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
     }
 
     /*Estilos Main*/

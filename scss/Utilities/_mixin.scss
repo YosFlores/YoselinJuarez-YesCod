@@ -42,7 +42,7 @@
 @mixin footer($height) {
     background-color: #faeeee;
     height: $height;
-    color: #9383e6;
+    color: nth($colores, 3);
     display: flex;
     flex-direction: column;
     align-items: center;
